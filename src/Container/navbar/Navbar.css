@@ -3,37 +3,36 @@
   position: fixed;
   background-color: #ffffff;
   z-index: 100;
-  } 
-  
-  .gapes {
-    gap: 25px;
-  }
-  
-  .nav-item a {
-    color: #1E520C !important;
-  }
-  
-  .logoImg {
-    height: auto;
-    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.2));
-    margin-right: 60px;
-  }
-  
-  /* .mauto {
+}
+
+.gapes {
+  gap: 25px;
+}
+
+.nav-item a {
+  color: #1e520c !important;
+}
+
+.logoImg {
+  height: auto;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.2));
+  margin-right: 60px;
+}
+
+/* .mauto {
     margin: auto;
   } */
 
-  @media (max-width : 459px) {
-    .logoImg{
-      padding-left: 0px !important;
-      margin-right: 0px !important;
-    }
-    .navbaricon{
-      gap: 3px !important;
-    }
-    
+@media (max-width: 459px) {
+  .logoImg {
+    padding-left: 0px !important;
+    margin-right: 0px !important;
   }
-  /* .newhim {
+  .navbaricon {
+    gap: 3px !important;
+  }
+}
+/* .newhim {
  
 
     z-index: 10;
@@ -48,56 +47,53 @@
     bottom: 0px;
     z-index: 0;
   } */
-  
-  @media (max-width: 991px) {
-    .mauto {
-      margin: 0px;
-      display: none;
-    }
-    .div1{
-      max-width: none !important;
+
+@media (max-width: 991px) {
+  .mauto1 {
+    margin: 0px;
    
-    }
   }
-    .mauto1{
-      @media screen and (min-width: 991px) and (max-width:2000px) {
-display: none;
-      }
-
-    }
-    .div1{
-      /* max-width: fit-content; */
-      /* padding-right: 90px; */
-    }
-.navbaricon{
-    gap: 20px;
-    align-items: center;
+  .div1 {
+    max-width: none !important;
+  }
 }
-  .offcanvas {
-    width: 210px !important;
+
+@media (min-width: 991px) {
+  .mauto1 {
+    display: none !important;
   }
-  .ipo{
-    width: 30px !important;
+}
+
+.div1 {
+  /* max-width: fit-content; */
+  /* padding-right: 90px; */
+}
+.navbaricon {
+  gap: 20px;
+  align-items: center;
+}
+.offcanvas {
+  width: 210px !important;
+}
+.ipo {
+  width: 30px !important;
+}
+.nav-link {
+  color: #000; /* Default text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Active nav link styles */
+.nav-link.active {
+  color: #28a745; /* Green color */
+  border-bottom: 2px solid #28a745; /* Green underline */
+}
+@media (max-width: 768px) {
+  .back-groundd {
+    position: relative;
   }
-  .nav-link {
-    color: #000; /* Default text color */
-    text-decoration: none; /* Remove underline from links */
+  .mainallaresame {
+    position: relative;
+    top: 0px;
   }
-  
-  /* Active nav link styles */
-  .nav-link.active {
-    color: #28a745; /* Green color */
-    border-bottom: 2px solid #28a745; /* Green underline */
-  }
-  @media(max-width: 768px){
-    .back-groundd {
-      position: relative;}
-      .mainallaresame {
-        position: relative;
-        top: 0px;
-  }}
-
-
-
-
-
+}

@@ -80,7 +80,7 @@ export default function Navbar({ cart }) {
                       {cart.length}
                     </span>
                   )}
-                  <img src={addto} style={{ width: "40px", height: "40px" }} alt="Cart" />
+                  <img src={addto} className='' style={{ width: "40px", height: "40px" }} alt="Cart" />
                 </NavLink>
               </li>
               <li className="nav-item">
